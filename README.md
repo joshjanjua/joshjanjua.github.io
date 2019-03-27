@@ -4,11 +4,18 @@ This portfolio is a compilation of notebooks which I created for data analysis o
 
 ## Data Cleaning/Structuring
 
-### DMA
+### Kitesurfing Email 
+  My interest in [Kiteboarding](https://www.youtube.com/watch?v=yl8hiSHuhiI) has increased with *almost* the same velocity as my interest in data science. In Kiteboarding, you need to have a good weather forecast and I always found myself checking the wind. Took the opportunity to create code that pulls the relevant information from an [API](https://darksky.net/forecast/12.1217,-68.861/us12/en_) for my location and uploaded it to AWS so that I get an email every week for the forecast for the upcoming weekend.
+  
 <img src="img.JPG" width = "100">
 
+### DMA
+<img src="img.JPG" width = "100">--use this code to add images later on.
+
 ### Kaggle Pipeline
-### Kitesurfing Email
+  Enrolled in a [Kaggle Learning](https://www.kaggle.com/professional-skills-series#pipelines) on automating data pipelines. 
+
+
 
 ## Data Analysis
 
