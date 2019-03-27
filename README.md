@@ -5,7 +5,7 @@ This portfolio is a compilation of notebooks which I created for data analysis o
 ## Data Cleaning/Structuring
 
 ### DMA
-<img src="Images/img.png" width = "100">
+<img src="img.JPG" width = "100">
 
 ### Kaggle Pipeline
 ### Kitesurfing Email
