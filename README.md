@@ -4,14 +4,24 @@ This portfolio is a compilation of notebooks which I created for data analysis o
 
 ## Data Cleaning/Structuring
 
+### DMA
+<img src="Images/img.png" width = "100">
+
+### Kaggle Pipeline
+### Kitesurfing Email
 
 ## Data Analysis
 
+### C2S
 
 ## Machine Learning
 
+### Regression - Housing Prices
+### Classification - Titanic
 
 ## Dashboarding
+
+### Kaggle LA Dashboard
 
 # including Andrey's details to use formatting
 # Data science portfolio by Andrey Lukyanenko
