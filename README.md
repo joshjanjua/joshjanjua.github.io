@@ -5,17 +5,25 @@ This portfolio is a compilation of notebooks which I created for data analysis o
 ## Data Cleaning/Structuring
 
 ### Kitesurfing Email 
-  My interest in [Kiteboarding](https://www.youtube.com/watch?v=yl8hiSHuhiI) has increased with *almost* the same velocity as my interest in data science. In Kiteboarding, you need to have a good weather forecast and I always found myself checking the wind. Took the opportunity to create code that pulls the relevant information from an [API](https://darksky.net/forecast/12.1217,-68.861/us12/en_) for my location and uploaded it to AWS so that I get an email every week for the forecast for the upcoming weekend.
+  My interest in [Kiteboarding](https://www.youtube.com/watch?v=yl8hiSHuhiI) has increased with *almost* the same velocity as my interest in data science. In Kiteboarding, you need to have a good weather forecast and I always found myself checking the wind. Took the opportunity to create code that pulls the relevant information from an [API](https://darksky.net/forecast/12.1217,-68.861/us12/en_) for my location and uploaded it to AWS so that I get an email every week for the forecast for the upcoming weekend. 
   
-<img src="Images/Kiteforecast.JPG" width = "300">
+This exercise taught me how to interact with API's, work with JSON data, schedule activities, and productionalize code by uploading to the cloud.
+  
+<img src="Images/Kiteforecast.JPG" width = "100">
 
-### DMA
-<img src="img.JPG" width = "100">--use this code to add images later on.
+### DMA Analysis
+  This project was to analyze and optimize a client's customer routing capabilities. Specifically, taking into account key factors by DMA to assess if there were any DMA's that were converting at a secondary or tertiary location better than primary. I used a variety of factors to filter my results including average monthly flight count and average flight time. I used [Selenium](https://en.wikipedia.org/wiki/Selenium_(software)) to automatically download a file from the [US Bureau of Transportation Statistics](https://www.transtats.bts.gov/Tables.asp?DB_ID=111&DB_Name=Air%20Carrier%20Statistics%20%28Form%2041%20Traffic%29-%20All%20Carriers&DB_Short_Name=Air%20Carriers) and incororate it into my analysis. The analysis reports back the opportunity DMA's based upon the customer requirements.
+  
+This project taught me how to join together large datasets from disparate sources (577k rows in final dataset), use automation to incorporate external data, and structure it in a meaningful way for easily reporoducible analysis.
+
+<img src="Images/Selenium.JPG" width = "100">
 
 ### Kaggle Pipeline
-  Enrolled in a [Kaggle Learning](https://www.kaggle.com/professional-skills-series#pipelines) on automating data pipelines. 
+  I enrolled in a [Kaggle Learning](https://www.kaggle.com/professional-skills-series#pipelines) on automating data pipelines. I chose the live [gun violence data set](https://github.com/jamesqo/gun-violence-data) and set it to update weekly while I ran a validation check on data types, presence of key inputs, and missing data. I then used ETL to pair down the national data to specifically the number of [FL residents](https://www.kaggle.com/joshjanjua/data-pipeline-fl-mass-shootings) injured or killed by month and year.
 
+The learning taught me how to set up data versioning with a dataset from a URL endpoint, create data validation checks, and perform ETL. 
 
+<img src="Images/Pipeline.JPG" width = "100">
 
 ## Data Analysis
 
