@@ -9,25 +9,30 @@ This portfolio is a compilation of notebooks which I created for data analysis o
   
 This exercise taught me how to interact with API's, work with JSON data, schedule activities, and productionalize code by uploading to the cloud.
   
-<img src="Images/Kiteforecast.JPG" width = "100">
+<img src="Images/Kiteforecast.JPG" width = "300">
 
 ### DMA Analysis
-  This project was to analyze and optimize a client's customer routing capabilities. Specifically, taking into account key factors by DMA to assess if there were any DMA's that were converting at a secondary or tertiary location better than primary. I used a variety of factors to filter my results including average monthly flight count and average flight time. I used [Selenium](https://en.wikipedia.org/wiki/Selenium_(software)) to automatically download a file from the [US Bureau of Transportation Statistics](https://www.transtats.bts.gov/Tables.asp?DB_ID=111&DB_Name=Air%20Carrier%20Statistics%20%28Form%2041%20Traffic%29-%20All%20Carriers&DB_Short_Name=Air%20Carriers) and incororate it into my analysis. The analysis reports back the opportunity DMA's based upon the customer requirements.
+  The goal of this project was to analyze and optimize a client's customer routing capabilities. Specifically, taking into account key factors by DMA to assess if there were any DMA's that were converting at a secondary or tertiary location better than primary. I used a variety of factors to filter my results including average monthly flight count and average flight time. I used [Selenium](https://en.wikipedia.org/wiki/Selenium_(software)) to automatically download a file from the [US Bureau of Transportation Statistics](https://www.transtats.bts.gov/Tables.asp?DB_ID=111&DB_Name=Air%20Carrier%20Statistics%20%28Form%2041%20Traffic%29-%20All%20Carriers&DB_Short_Name=Air%20Carriers) and incororate it into my analysis. The analysis reports back the opportunity DMA's based upon the customer requirements.
   
 This project taught me how to join together large datasets from disparate sources (577k rows in final dataset), use automation to incorporate external data, and structure it in a meaningful way for easily reporoducible analysis.
 
-<img src="Images/Selenium.JPG" width = "100">
+<img src="Images/Selenium.JPG" width = "300">
 
 ### Kaggle Pipeline
   I enrolled in a [Kaggle Learning](https://www.kaggle.com/professional-skills-series#pipelines) on automating data pipelines. I chose the live [gun violence data set](https://github.com/jamesqo/gun-violence-data) and set it to update weekly while I ran a validation check on data types, presence of key inputs, and missing data. I then used ETL to pair down the national data to specifically the number of [FL residents](https://www.kaggle.com/joshjanjua/data-pipeline-fl-mass-shootings) injured or killed by month and year.
 
 The learning taught me how to set up data versioning with a dataset from a URL endpoint, create data validation checks, and perform ETL. 
 
-<img src="Images/Pipeline.JPG" width = "100">
+<img src="Images/Pipeline.JPG" width = "300">
 
 ## Data Analysis
 
-### C2S
+### Cost Analysis
+  The goal of this project was to analyze and identify client's spend opportunities. We combined corporate productivity metrics with time studies gathered at the sites to validate the initial data set. The initial data set was 500k+ rows and included 24 departments across 5 locations. A follow up, deeper analysis data set was an additional 500k+ rows and focused on descrepancies in 7 departments. Information was exported from Qlikview as a txt file and uploaded for analysis. I identified the root causes for location differences. 
+  
+This project taught me how to import significant amounts of data in a text file, structure it for automated recurring analysis, and craft a targeted story for client executives.
+
+<img src="Images/C2S.JPG" width = "300">
 
 ## Machine Learning
 
