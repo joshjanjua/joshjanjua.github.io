@@ -1,6 +1,6 @@
 # Data Science Portfolio by Josh Janjua
 
-This portfolio is a compilation of projects which I created for data structuring, data analysis, or machine learning. 
+This portfolio is a compilation of projects which I created for data clarning/structuring, data analysis, machine learning, or dashboarding.
 
 ## Data Cleaning/Structuring
 
@@ -39,16 +39,22 @@ This project reinforced working with data as a text file, structure it for autom
 ## Machine Learning
 
 ### Regression - Housing Prices
-  I was interested in learning best practices for linear regression and wanted to put some of my skills to use. I joined the [Kaggle Housing Prices competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) and my main focus to was simply learn about and use common linear regression algorithms. Specifically, I focused on Linear Regression (as a baseline), Ridge Regression, Lasso Regression, and Elasic Net. Ridge, Lasso, and Elastic Net all use regularization techniques. I was able to explain 91.2% of the variance with a RMSE (competition scoring metric) of 0.12117, which put me around the top 28%.
+  I was interested in learning best practices for linear regression and wanted to put some of my skills to use. I joined the [Kaggle Housing Prices competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) and my main focus to was simply learn about and use common linear regression algorithms. Specifically, I focused on Linear Regression (as a baseline), Ridge Regression, Lasso Regression, and Elasic Net. I was able to explain 91.2% of the variance with a RMSE (competition scoring metric) of 0.12117, which put me around the top 28%.
   
+This competition reinforced data transformation, automated feature selection, and regularization. 
+
 [Notebook](https://www.kaggle.com/joshjanjua/housing-prices-comp)
   
+<img src="Images/House.JPG" width = "300">
+
 ### Classification - Titanic
   Similarly, I was interested in learning best practices with logistic regression. I joined the [Kaggle Titanic Competition](https://www.kaggle.com/c/titanic) with my focus on optimizing prediction using a variety of algoritms. I cycled through various classification algorithms to test performance against the data set including Logistic Regression, K Nearest Neighbors, Random Forest, Gaussian Naive Bayes, Decision Trees, Support Vector Machines, and Gradient Boosting with XGBoost. I then tuned hyper parameters to maximize performance. Ultimately, I achieved an accuracy of 81% which landed me in the top 6% of participants. 
   
 This competition reinforced automated machine learning algorithm comparison, feature selection, and hyper parameter tuning. 
 
 [Notebook](https://www.kaggle.com/joshjanjua/titanic-comp)
+
+<img src="Images/Titanic.JPG" width = "300">
 
 ## Dashboarding
 
