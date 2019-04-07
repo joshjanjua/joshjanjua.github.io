@@ -9,14 +9,14 @@ This portfolio is a compilation of projects which I created for data clarning/st
   
 This exercise reinforced interacting with API's, working with JSON data, scheduling activities, and productionalizjng code by uploading to the cloud.
   
-<img src="Images/Kiteforecast.JPG" width = "300">
+<img src="Images/Kiteforecast.JPG" width = "500">
 
 ### DMA Analysis
   The goal of this project was to analyze and optimize a client's customer routing capabilities. Specifically, taking into account key factors by DMA to assess if there were any DMA's that were converting at a secondary or tertiary location better than primary. I used a variety of factors to filter my results including average monthly flight count and average flight time. I used [Selenium](https://en.wikipedia.org/wiki/Selenium_(software)) to automatically download a file from the [US Bureau of Transportation Statistics](https://www.transtats.bts.gov/Tables.asp?DB_ID=111&DB_Name=Air%20Carrier%20Statistics%20%28Form%2041%20Traffic%29-%20All%20Carriers&DB_Short_Name=Air%20Carriers) and incororate it into my analysis. The analysis reports back the opportunity DMA's based upon the customer requirements.
   
 This project reinforced joining together large datasets from disparate sources (577k rows in final dataset), automating external data incorporation, and structuring in a meaningful way for easily reporoducible analysis.
 
-<img src="Images/Selenium.JPG" width = "300">
+<img src="Images/Selenium.JPG" width = "500">
 
 ### Kaggle Pipeline
   I enrolled in a [Kaggle Learning](https://www.kaggle.com/professional-skills-series#pipelines) on automating data pipelines. I chose the live [gun violence data set](https://github.com/jamesqo/gun-violence-data) and set it to update weekly while I ran a validation check on data types, presence of key inputs, and missing data. I then used ETL to pair down the national data to specifically the number of FL residents injured or killed by month and year.
@@ -25,7 +25,7 @@ The learning reinforced versioning with a dataset from a URL endpoint, creating 
 
 [Notebook](https://www.kaggle.com/joshjanjua/data-pipeline-fl-mass-shootings)
 
-<img src="Images/Pipeline.JPG" width = "300">
+<img src="Images/Pipeline.JPG" width = "500">
 
 ## Data Analysis
 
@@ -34,7 +34,7 @@ The learning reinforced versioning with a dataset from a URL endpoint, creating 
   
 This project reinforced working with data as a text file, structure it for automated recurring analysis, and craft a targeted story for client executives.
 
-<img src="Images/C2S.JPG" width = "300">
+<img src="Images/C2S.JPG" width = "500">
 
 ## Machine Learning
 
@@ -45,7 +45,7 @@ This competition reinforced data transformation, automated feature selection, an
 
 [Notebook](https://www.kaggle.com/joshjanjua/housing-prices-comp)
   
-<img src="Images/House.JPG" width = "300">
+<img src="Images/House.JPG" width = "500">
 
 ### Classification - Titanic
   Similarly, I was interested in learning best practices with logistic regression. I joined the [Kaggle Titanic Competition](https://www.kaggle.com/c/titanic) with my focus on optimizing prediction using a variety of algoritms. I cycled through various classification algorithms to test performance against the data set including Logistic Regression, K Nearest Neighbors, Random Forest, Gaussian Naive Bayes, Decision Trees, Support Vector Machines, and Gradient Boosting with XGBoost. I then tuned hyper parameters to maximize performance. Ultimately, I achieved an accuracy of 81% which landed me in the top 6% of participants. 
@@ -54,7 +54,7 @@ This competition reinforced automated machine learning algorithm comparison, fea
 
 [Notebook](https://www.kaggle.com/joshjanjua/titanic-comp)
 
-<img src="Images/Titanic.JPG" width = "300">
+<img src="Images/Titanic.JPG" width = "500">
 
 ## Dashboarding
 
@@ -65,5 +65,5 @@ This learning reinforced the concepts of geospatial translation, data visualizat
   
 [Notebook](https://www.kaggle.com/joshjanjua/kaggle-dashboarding-la/notebook)
  
-<img src="Images/Dashboard.JPG" width = "300">
+<img src="Images/Dashboard.JPG" width = "500">
 
