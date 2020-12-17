@@ -63,7 +63,9 @@ This competition reinforced automated machine learning algorithm comparison, fea
    
    This project reinforced data pipeline creation, automation using serverless computing, cloud storage, and updating through an API.
    
-   
+<img src="/Images/Dashboard.png" width = "750">
+<img src="/Images/Website Placement.png" width = "750">
+
 
 ### Kaggle LA Dashboard
   I enrolled in a [Kaggle Learning](https://www.kaggle.com/rtatman/dashboarding-with-notebooks-day-1?utm_medium=email&utm_source=intercom&utm_campaign=dashboarding-event) on dashboarding with Notebooks. I chose the live L.A. parking ticket [dataset](https://www.kaggle.com/cityofLA/los-angeles-parking-citations) to visualize. I created data validation, visualized the last week's parking citations using [Folium](https://pypi.org/project/folium/), and trended the count by day, by hour, and by reason using [Plotly](https://plot.ly/python/). I then uploaded a refresh code to Google Cloud so that it would on the kaggle server nightly.
