@@ -58,6 +58,13 @@ This competition reinforced automated machine learning algorithm comparison, fea
 
 ## Dashboarding
 
+### Economic Indicators Dashboard
+   The goal of this project was to create a dashboard that focused on tracking and displaying the economic impacts due to the COVID-19 pandemic globally. I owned project management, analytics, and automation for this interactive daily dashboard. The dashboard is hosted using [ESRI](https://www.esri.com/en-us/home). I identified 50 different publicly available sources covering indicators including leading stock price indices, consumer price index, consumer confidence index, daily commodity prices, yield curves, and interest rates. I fully automated the data pipeline using [AWS](https://aws.amazon.com/). Specifically, a multi-layered lambda function with a cloudwatch event timer to save to an S3 bucket and upload through ESRI's Python [API](https://developers.arcgis.com/python/api-reference/) daily. This automation saves 2.5 hours of manual effort daily. The dashboard was pinned on the top of my organization's COVID-19 webpage and recieved praise from the Chief Marketing Officer.
+   
+   This project reinforced data pipeline creation, automation using serverless computing, cloud storage, and updating through an API.
+   
+   
+
 ### Kaggle LA Dashboard
   I enrolled in a [Kaggle Learning](https://www.kaggle.com/rtatman/dashboarding-with-notebooks-day-1?utm_medium=email&utm_source=intercom&utm_campaign=dashboarding-event) on dashboarding with Notebooks. I chose the live L.A. parking ticket [dataset](https://www.kaggle.com/cityofLA/los-angeles-parking-citations) to visualize. I created data validation, visualized the last week's parking citations using [Folium](https://pypi.org/project/folium/), and trended the count by day, by hour, and by reason using [Plotly](https://plot.ly/python/). I then uploaded a refresh code to Google Cloud so that it would on the kaggle server nightly.
   
