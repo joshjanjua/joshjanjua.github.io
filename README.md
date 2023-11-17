@@ -4,6 +4,20 @@ This portfolio is a compilation of projects that I created for data cleaning/str
 
 ## Interactive Applications
 
+### Car Dealership Chatbot 
+ I developed a chatbot for a used car dealership to automate customer support inquiries after hours. The virtual assistant was crafted to engage customers in real-time, addressing inquiries, streamlining the car-buying experience, and enabling data capture for the sales team. I created a workflow using [conversational design software](https://www.voiceflow.com/) and with that workflow, I called the Open AI to query a custom knowledge base, captured user information and sent a confirmation email using [webhooks and automations](https://zapier.com/app/dashboard). This project not only exhibited my capabilities in integrating cutting-edge AI with business processes but also in creating solutions that drive tangible business value. Through this initiative, I further solidified my expertise in conversational AI, automation, and system integration within a dynamic retail environment.
+ 
+Skills Highlighted:
+
+- Conversational Design: Utilized sophisticated conversational design tools to create intuitive dialogue flows, ensuring natural and engaging user interactions.
+- OpenAI API Integration: Integrated OpenAI's powerful API along with a knowledge base to enable the chatbot with advanced natural language understanding, allowing it to interpret and respond to complex customer queries effectively.
+- Zapier Automation: Leveraged Zapier to automate workflows between the chatbot, Google Sheets, and Outlook, ensuring seamless information synchronization and real-time alerting for human representatives.
+
+
+<img src="Images/chatbot_1.png" width = "700">
+<img src="Images/chatbot_2.png" width = "700">
+<img src="Images/chatbot_3.png" width = "700">
+
 ### Housing Prediction Streamlit App
 
   I developed a real estate price prediction and analysis app for homes that are of interest to me in my immediate area, leveraging various data science techniques to enhance  functionality and insights. The core of the app centers around the ElasticNet machine learning model, which I selected by using an algorithm harness including various models like Linear Regression, ElasticNet, and XGBoost Regressor, with a variety of scalers including Standard, MinMax, and Robust to identify the best-performing pipeline. A significant feature of this project was the use of SHAP (SHapley Additive exPlanations) to not only remove outliers but also to understand feature importances, providing a deeper insight into the factors driving housing prices. There were a few instances where I identified data that needed to be cleaned. One real estate nuance I learned, was if a house has a pond in the back, then the square footage of the pond is included in the lot size! There was one house that had a pond with some woods which had a gigantic lot size and was skewing my predictions so I imputed the mean lot size of houses that had sold in a similar range to get a sense of useable backyard space. Through SHAP partial dependence plots, I identified an interaction between living area and latitude implying that as houses are farther north (closer to Tampa Bay) living area has a larger impact on house price. 
