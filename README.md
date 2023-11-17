@@ -1,4 +1,4 @@
-![image](https://github.com/joshjanjua/joshjanjua.github.io/assets/37121877/08507a40-fa6e-422c-976d-5d26814cc0ba)# Data Science Portfolio by Josh Janjua
+# Data Science Portfolio by Josh Janjua
 
 This portfolio is a compilation of projects that I created for data cleaning/structuring, data analysis, machine learning, or dashboarding.
 
@@ -17,6 +17,9 @@ This portfolio is a compilation of projects that I created for data cleaning/str
 - Predictive Insights: Enabled accurate price predictions and dynamic data filtering for user-specified parameters like bedrooms and bathrooms.
 - Practical Application: Solidified the app's practicality for real-world real estate analytics.
 
+<img src="Images/Kiteforecast.JPG" width = "500">
+<img src="Images/Kiteforecast.JPG" width = "500">
+<img src="Images/Kiteforecast.JPG" width = "500">
 <img src="Images/Kiteforecast.JPG" width = "500">
 <img src="Images/Kiteforecast.JPG" width = "500">
 
