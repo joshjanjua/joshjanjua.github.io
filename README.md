@@ -17,11 +17,13 @@ This portfolio is a compilation of projects that I created for data cleaning/str
 - Predictive Insights: Enabled accurate price predictions and dynamic data filtering for user-specified parameters like bedrooms and bathrooms.
 - Practical Application: Solidified the app's practicality for real-world real estate analytics.
 
-<img src="Images/Kiteforecast.JPG" width = "500">
-<img src="Images/Kiteforecast.JPG" width = "500">
-<img src="Images/Kiteforecast.JPG" width = "500">
-<img src="Images/Kiteforecast.JPG" width = "500">
-<img src="Images/Kiteforecast.JPG" width = "500">
+<img src="Images/algos.png" width = "500">
+<img src="Images/SHAP_1.png" width = "500">
+<img src="Images/SHAP_2.png" width = "500">
+<img src="Images/pdp.png" width = "500">
+<img src="Images/SL_1.png" width = "500">
+<img src="Images/SL_2.png" width = "500">
+<img src="Images/SL_3.png" width = "500">
 
 ## Data Cleaning/Structuring
 
