@@ -6,7 +6,7 @@ This portfolio is a compilation of projects that I created for data cleaning/str
 
 ### Housing Prediction Streamlit App
 
-  I developed a real estate price prediction and analysis app for homes that are of interest to me in my immediate area, leveraging various data science techniques to enhance  functionality and insights. The core of the app centers around the ElasticNet machine learning model, which I selected by using an algorithm harness including various models like Linear Regression, ElasticNet, and XGBoost Regressor, with a variety of scalers including Standard, MinMax, and Robust to identify the best-performing pipeline. A significant feature of this project was the use of SHAP (SHapley Additive exPlanations) to not only remove outliers but also to understand feature importances, providing a deeper insight into the factors driving housing prices. There were a few instances where I identified data that needed to be cleaned. One real estate nuance I learned, was if a house has a pond in the back, then the square footage of the pond is included in the lot size! There was one house that had a pond with some woods which had a gigantic lot size and was skewing my predictions so I imputed the mean lot size of houses that had sold in a similar range to get a sense of useable backyard space.
+  I developed a real estate price prediction and analysis app for homes that are of interest to me in my immediate area, leveraging various data science techniques to enhance  functionality and insights. The core of the app centers around the ElasticNet machine learning model, which I selected by using an algorithm harness including various models like Linear Regression, ElasticNet, and XGBoost Regressor, with a variety of scalers including Standard, MinMax, and Robust to identify the best-performing pipeline. A significant feature of this project was the use of SHAP (SHapley Additive exPlanations) to not only remove outliers but also to understand feature importances, providing a deeper insight into the factors driving housing prices. There were a few instances where I identified data that needed to be cleaned. One real estate nuance I learned, was if a house has a pond in the back, then the square footage of the pond is included in the lot size! There was one house that had a pond with some woods which had a gigantic lot size and was skewing my predictions so I imputed the mean lot size of houses that had sold in a similar range to get a sense of useable backyard space. Through SHAP partial dependence plots, I identified an interaction between living area and latitude implying that as houses are farther north (closer to Tampa Bay) living area has a larger impact on house price. 
 
  Skills Highlighted:
 
@@ -17,13 +17,14 @@ This portfolio is a compilation of projects that I created for data cleaning/str
 - Predictive Insights: Enabled accurate price predictions and dynamic data filtering for user-specified parameters like bedrooms and bathrooms.
 - Practical Application: Solidified the app's practicality for real-world real estate analytics.
 
+
+<img src="Images/SL_1.png" width = "700">
+<img src="Images/SL_2.png" width = "700">
+<img src="Images/SL_3.png" width = "700">
 <img src="Images/algos.png" width = "500">
 <img src="Images/SHAP_1.png" width = "500">
 <img src="Images/SHAP_2.png" width = "500">
 <img src="Images/pdp.png" width = "500">
-<img src="Images/SL_1.png" width = "500">
-<img src="Images/SL_2.png" width = "500">
-<img src="Images/SL_3.png" width = "500">
 
 ## Data Cleaning/Structuring
 
